@@ -1,0 +1,122 @@
+:root {
+    --ff-sans: "Outfit", sans-serif;
+    --ff-serif: "Young serif", serif;
+
+    --fw-regular: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    --fs-400: 0.9rem;
+    --fs-500: 1.25rem;
+    --fs-700: 1.75rem;
+    --fs-900: 2.5rem;
+   
+    --clr-primary-Nutmeg: hsl(14, 45%, 36%);
+    --clr-primary-DarkRaspberry: hsl(332, 51%, 32%);
+    --clr-neutral-White: hsl(0, 0%, 100%);
+    --clr-neutral-rosewhite: hsl(330, 100%, 98%);
+    --clr-neutral-Eggshell: hsl(30, 54%, 90%);
+    --clr-neutral-LightGrey: hsl(30, 18%, 87%);
+    --clr-neutral-WengeBrown: hsl(30, 10%, 34%);
+    --clr-neutral-DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+html {
+    background-color: var(--clr-neutral-Eggshell);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--clr-neutral-rosewhite);
+    margin: 1rem 3rem;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: max-content;
+    min-width: 300px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+h1 {
+font-family: var(--ff-serif);
+font-weight: var(--fw-bold);
+font-size: var(--fs-900);
+color: var(--clr-neutral-DarkCharcoal);
+}
+h2 {
+    font-family: var(--ff-serif);
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-700);
+    color: var(--clr-primary-Nutmeg);
+}
+
+#prep {
+    font-family: var(--ff-sans);
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-500);
+    color: var(--clr-primary-DarkRaspberry);
+}
+
+p {
+font-family: var(--ff-sans);
+font-weight: var(--fw-regular);
+font-size: var(--fs-400);
+color: var(--clr-neutral-DarkCharcoal);
+}
+
+li {
+    font-family: var(--ff-sans);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-400);
+    color: var(--clr-neutral-DarkCharcoal) ;
+}
+
+.IN {
+    border-bottom: 1px solid var(--clr-neutral-LightGrey);
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+td {
+    font-family: var(--ff-sans);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-400);
+    color: var(--clr-neutral-DarkCharcoal);
+}
+
+span {
+font-weight: var(--fw-semibold);
+}
+
+tr {
+    border-bottom: 1px solid var(--clr-neutral-LightGrey);
+}
+
+td {
+    align-content: start;
+    width: 300px;
+    height: 20px;
+}
+
+#time {
+    background-color: hsl(275, 100%, 97%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table span {
+    font-weight: var(--fw-semibold);
+    color: var(--clr-primary-Nutmeg);
+}
